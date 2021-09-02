@@ -1,0 +1,49 @@
+.plot-container {
+    position: relative;    
+}
+.header {
+    position: absolute;
+    text-align: center;
+    top: -100%;
+    width: 100%;
+    font-family: monospace;
+    font-size: 50px;
+    color: #2e4e57;
+}
+.description {
+    position: absolute;
+    text-align: center;
+    top: 350%;
+    width: 100%;
+    font-family: monospace;
+    font-size: 15px;
+    color: #2e4e57;
+}
+.land {
+    fill: #dfd4bc;
+
+}
+.map-sphere {
+    fill:#4995aa;
+    opacity: 0.8;
+    stroke: #5f5a50;
+}
+.country-borders {
+    fill: #dfd4bc;
+    stroke: #5f5a50;
+    stroke-width: 1px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+.cities {
+    fill:#792112;
+    opacity: 0.3;
+}
+.graticules {
+    fill: none;
+    opacity: 0.2;
+    stroke: #eedbb5;
+    stroke-width: 1px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
